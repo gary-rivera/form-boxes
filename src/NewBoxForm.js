@@ -24,7 +24,7 @@ function NewBoxForm({ create }) {
   function handleSubmit(evt) {
     evt.preventDefault();
 
-    create({...formData });
+    create(formData);
     setFormData(initialState);
   }
 
