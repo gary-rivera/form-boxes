@@ -1,0 +1,10 @@
+.Box {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.Box-button {
+    max-width: 100px;
+}

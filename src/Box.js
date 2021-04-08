@@ -1,11 +1,16 @@
 import React from 'react';
-import BoxForm from './BoxForm';
+import "./Box.css";
 
-function Box() {
+function Box({ height, width, backgroundColor }) {
+  function handleClick() {
+
+  }
   return (
-  <div>
-    Box
-  </div>
-)}
+    <div className="Box">
+      <div style={{ height, width, backgroundColor }}></div>
+      <button className="Box-button" onClick={handleClick}>Remove The Box!</button>
+    </div>
+  )
+}
 
 export default Box;
